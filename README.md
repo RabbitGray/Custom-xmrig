@@ -38,6 +38,9 @@ make -j10`
 
 
 
+## Working Devices Tested
+Oppo F9
+Firestick 4k
 
 
 
