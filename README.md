@@ -11,7 +11,8 @@
 ***
 PASTE THE FOLLOWING INTO THE TERMINAL:
 
-1. `apt update && apt upgrade &&
+1. Install all the everything required
+`apt update && apt upgrade &&
 apt install -y git wget proot build-essential cmake libmicrohttpd &&
 git clone https://github.com/RabbitGray/Custom-xmrig --depth 1 &&
 mkdir xmrig/build &&
@@ -19,16 +20,20 @@ cd xmrig/build &&
 cmake -DWITH_HWLOC=OFF .. &&
 make -j10`
 
-2. `wget https://github.com/RabbitGray/Custom-xmrig/blob/master/example_android_config.conf`
+2. Download example config file 
+`wget https://github.com/RabbitGray/Custom-xmrig/blob/master/example_android_config.conf`
 
-3. `mv example_android_config.conf config.json`
+3. Rename config file
+`mv example_android_config.conf config.json`
 
-4. `nano config.json` 
+4. Edit the config file 
+`nano config.json` 
 <img src="https://github.com/RabbitGray/Custom-xmrig/blob/e50bd264d969a88ce550dc1be4b531339d9544a8/doc/Screenshot_modify_settings.jpg" width="400" height="900">
 
 ***
 
-5. `./xmrig --config config.json`
+5. Now let's start mining! 
+`./xmrig --config config.json`
 <img src="https://github.com/RabbitGray/Custom-xmrig/blob/e50bd264d969a88ce550dc1be4b531339d9544a8/doc/Screenshot_android_mining.jpg" width="400" height="900">
 
 
