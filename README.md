@@ -6,7 +6,7 @@
 
 3. Download the config file into the same directory rename it and modify your algo and pool details
 
-4. Be careful you may damage your device or overheat. USE AT YOUR OWN RISK! 
+4. Be careful you may damage your device or overheat. **USE AT YOUR OWN RISK!** 
 
 ***
 PASTE THE FOLLOWING INTO THE TERMINAL:
